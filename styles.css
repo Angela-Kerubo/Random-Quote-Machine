@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #fff;
+  }
+  
+  #quote-box {
+    background-color: #444;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  #text p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  #author p {
+    margin-top: 0.5rem;
+    font-size: 18px;
+  }
+  
+  .button-container {
+    margin-top: 2rem;
+  }
+  
+  button {
+    padding: 0.75rem 1rem;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.5rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #007bff;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Additional styles for dark theme */
+  
+  body,
+  #quote-box,
+  #text p,
+  #author p {
+    color: #fff;
+  }
+  
+  #quote-box {
+    background-color: #222;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  a {
+    color: #007bff;
+    border: 1px solid #007bff;
+  }
+  
+  a:hover {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  
